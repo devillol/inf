@@ -4,6 +4,6 @@ while n > 0:
     last = n % 10
     if last == 1:
         cnt += 1
-    n = (n - last) / 10
+    n = n // 10
 
 print(f"Единиц: {cnt}")
